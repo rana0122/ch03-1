@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script src="modernizr-custom.js"></script>
+</head>
+<body>
+<h1>svg 이미지 삽입하기</h1>
+<img src="muffin.svg">
+<script type="text/javascript">
+	if(modernizr.svg){
+		$("img").attr("src","muffin.png");
+	}
+</script>
+</body>
+</html>
